@@ -1,0 +1,38 @@
+.jumbotron {
+    text-align: center;
+  }
+
+td {
+    font-size: smaller;
+  }
+
+th {
+    font-size: ;
+  }
+
+.table td {
+    padding: 0%;
+  }
+
+img {
+  width: 20%;
+  padding: 1%;
+}
+
+h3 {
+  text-align: center;
+  padding: 1%
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
